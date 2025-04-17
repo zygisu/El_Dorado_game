@@ -1,3 +1,3 @@
 class GameRules:
-
-    game_rules = "this is game rules mode"
+    def game_rules(sef):
+        print("this is game rules mode")

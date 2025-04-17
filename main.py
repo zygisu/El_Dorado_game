@@ -27,7 +27,7 @@ class Main:
                 print("Exiting the game.")
                 break
             try:
-                self.mode_launcher.execute_mode(mode_type)
+                self.mode_launcher.mode_execution(mode_type)
             except SystemExit:
                 print("Exiting the game.")
                 break

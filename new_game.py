@@ -1,3 +1,7 @@
 class NewGame:
-
-    new_game = "this is new game mode"
+    def execute(self):
+        while True:
+            print("this is new game mode")
+            choice = input("Type 'back' to return to the main menu: ")
+            if choice.lower() == "back":
+                break

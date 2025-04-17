@@ -1,3 +1,3 @@
 class GameStatistics:
-
-    game_statistics = "this is game statistics"
+    def execute(self):
+        print("this is game statistics")

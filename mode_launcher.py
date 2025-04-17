@@ -30,7 +30,10 @@ class ModeLauncher:
         try:
             mode_type = int(mode_type)
         except ValueError:
-            print("Invalid input. Please enter a number.")
+            print("Invalid input. Please try again with a valid number.")
+            return
+        if mode_type < 1 or mode_type > 4:
+            print("Invalid mode selected. Choose again.")
             return
         mode_class = self.modes.get(mode_type)
         if not mode_class:
